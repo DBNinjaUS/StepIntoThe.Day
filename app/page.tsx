@@ -35,7 +35,7 @@ export default function Home() {
 
       <section id="top" className="hero">
         <div className="sun-glow" aria-hidden="true" />
-        <div className="eyebrow"><Coffee size={15} /> An Alcoholics Anonymous group</div>
+        <div className="eyebrow"><Coffee size={15} /> A 6:30 AM Weekday Alcoholics Anonymous group in Metro Atlanta</div>
         <h1>Recovery happens<br /><em>one day at a time.</em></h1>
         <p className="hero-copy">
           Step Into The Day is a welcoming AA group where we gather in fellowship,
