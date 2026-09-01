@@ -20,6 +20,7 @@ const communityLinks = [
   { href: '#sponsee-area', label: 'Sponsee Area' },
   { href: '#messaging', label: 'Messaging' },
   { href: '#community-social-area', label: 'Community/Social Area' },
+  { href: '#group-calendar', label: 'Group Calendar' },
   { href: '#group-conscious-documents', label: 'Group Conscious Documents' },
 ];
 
