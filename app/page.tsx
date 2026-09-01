@@ -1,4 +1,5 @@
 import { ArrowRight, Coffee, ExternalLink, Heart, MapPin, ShieldCheck, Sun, Users } from 'lucide-react';
+import { SiteNav } from '@/components/site-nav';
 
 const welcomePoints = [
   {
@@ -26,11 +27,7 @@ export default function Home() {
           <span className="brand-mark"><Sun size={19} strokeWidth={2.4} /></span>
           <span>Step Into The Day</span>
         </a>
-        <div className="nav-links">
-          <a href="#welcome">Welcome</a>
-          <a href="#location">Location</a>
-          <a href="#newcomers">Newcomers</a>
-        </div>
+        <SiteNav />
       </nav>
 
       <section id="top" className="hero">
