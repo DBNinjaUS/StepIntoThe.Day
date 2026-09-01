@@ -6,17 +6,17 @@ const sans = DM_Sans({ variable: '--font-sans', subsets: ['latin'] });
 const serif = Lora({ variable: '--font-serif', subsets: ['latin'], style: ['normal', 'italic'] });
 
 export const metadata: Metadata = {
-  title: 'StepIntoThe.Day',
-  description: 'A simple daily rhythm for moving through your day with intention.',
+  title: 'Step Into The Day | Alcoholics Anonymous Group',
+  description: 'A welcoming Alcoholics Anonymous group sharing experience, strength, and hope—one day at a time.',
   openGraph: {
-    title: 'StepIntoThe.Day',
-    description: 'Step into today with intention.',
+    title: 'Step Into The Day | AA Group',
+    description: 'Recovery happens one day at a time.',
     images: ['https://raw.githubusercontent.com/DBNinjaUS/StepIntoThe.Day/main/public/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'StepIntoThe.Day',
-    description: 'Step into today with intention.',
+    title: 'Step Into The Day | AA Group',
+    description: 'Recovery happens one day at a time.',
     images: ['https://raw.githubusercontent.com/DBNinjaUS/StepIntoThe.Day/main/public/og.png'],
   },
 };
