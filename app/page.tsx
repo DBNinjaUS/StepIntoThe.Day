@@ -35,8 +35,10 @@ export default function Home() {
         <div className="eyebrow"><Coffee size={15} /> A 6:30 AM Weekday Alcoholics Anonymous group in Metro Atlanta</div>
         <h1>Recovery happens<br /><em>one day at a time.</em></h1>
         <p className="hero-copy">
-          Step Into The Day is a welcoming AA group where we gather in fellowship,
-          share experience, strength, and hope, and help one another stay sober today.
+          Step Into The Day is an AA group where we gather in fellowship, share experience,
+          strength, and hope. We are a &quot;non-traditional&quot; AA group in as much as we
+          operate more like a family than a formal structured group. Our goal is not only
+          chemical sobriety, but emotional sobriety where we all live the fullest lives possible.
         </p>
         <a className="primary-button" href="#newcomers">New here? Start here <ArrowRight size={18} /></a>
 
