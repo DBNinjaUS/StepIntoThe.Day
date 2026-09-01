@@ -1,4 +1,4 @@
-import { ArrowRight, Coffee, Heart, ShieldCheck, Sun, Users } from 'lucide-react';
+import { ArrowRight, Coffee, ExternalLink, Heart, MapPin, ShieldCheck, Sun, Users } from 'lucide-react';
 
 const welcomePoints = [
   {
@@ -28,6 +28,7 @@ export default function Home() {
         </a>
         <div className="nav-links">
           <a href="#welcome">Welcome</a>
+          <a href="#location">Location</a>
           <a href="#newcomers">Newcomers</a>
         </div>
       </nav>
@@ -58,6 +59,23 @@ export default function Home() {
           Whether this is your first meeting, your first day back, or one more day in a long recovery,
           there is a seat for you. We meet as equals and support each other in living sober.
         </p>
+      </section>
+
+      <section id="location" className="location-section">
+        <div className="location-icon"><MapPin size={25} /></div>
+        <div className="location-copy">
+          <span className="kicker">Meeting location</span>
+          <h2>Meet us at The HOW Place.</h2>
+          <p>5881 Old Bascomb Road<br />Acworth, GA 30102</p>
+        </div>
+        <a
+          className="map-button"
+          href="https://www.google.com/maps/search/?api=1&query=The+HOW+Place%2C+5881+Old+Bascomb+Road%2C+Acworth%2C+GA+30102"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open in Google Maps <ExternalLink size={17} />
+        </a>
       </section>
 
       <section id="newcomers" className="newcomers">

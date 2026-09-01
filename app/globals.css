@@ -31,6 +31,12 @@ h1 em { color:var(--primary); font-weight:500; }
 .welcome-band { max-width:1120px; margin:auto; padding:110px 28px; display:grid; grid-template-columns:1.05fr .95fr; align-items:end; gap:90px; }
 .welcome-band h2 { color:var(--foreground); margin-bottom:0; }
 .welcome-band>p { color:#61756c; font-size:17px; line-height:1.8; margin:0 0 8px; }
+.location-section { max-width:1120px; margin:0 auto 110px; padding:38px 42px; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:28px; border:1px solid #d9d0be; border-radius:24px; background:#fffdf8; box-shadow:0 20px 60px rgba(72,71,52,.08); }
+.location-icon { width:56px; height:56px; display:grid; place-items:center; border-radius:50%; color:#fff9ee; background:var(--primary); }
+.location-copy h2 { margin:8px 0 9px; font-size:clamp(30px,4vw,42px); }
+.location-copy p { margin:0; color:#61756c; line-height:1.65; }
+.map-button { display:flex; align-items:center; gap:9px; padding:14px 18px; border-radius:999px; color:#fffaf0; background:var(--foreground); font-size:14px; font-weight:700; white-space:nowrap; transition:transform .2s,box-shadow .2s; }
+.map-button:hover { transform:translateY(-2px); box-shadow:0 12px 28px rgba(32,55,47,.18); }
 .newcomers { background:#20372f; color:#f9f2e5; padding:110px 28px 120px; }
 .section-heading { max-width:680px; margin:0 auto 60px; text-align:center; }
 .kicker { color:#efaa76; text-transform:uppercase; font-size:11px; font-weight:750; letter-spacing:.18em; }
@@ -50,5 +56,5 @@ h2 { margin:18px 0; font-family:var(--font-serif),serif; font-size:clamp(38px,5v
 footer { min-height:180px; padding:44px 28px; display:flex; align-items:center; justify-content:space-between; max-width:1180px; margin:auto; }
 footer p { color:#708078; font-family:var(--font-serif),serif; font-style:italic; }
 .footer-brand { font-size:14px; }
-@media (max-width:760px) { .nav-links{display:none}.hero{padding-top:70px;min-height:650px}.daily-card{padding:22px;margin-top:50px}.welcome-band{grid-template-columns:1fr;gap:30px;padding:80px 28px}.steps-grid{grid-template-columns:1fr}.step-card{min-height:270px}footer{flex-direction:column;justify-content:center;gap:20px;text-align:center} }
+@media (max-width:760px) { .nav-links{display:none}.hero{padding-top:70px;min-height:650px}.daily-card{padding:22px;margin-top:50px}.welcome-band{grid-template-columns:1fr;gap:30px;padding:80px 28px}.location-section{margin:0 20px 80px;padding:30px;grid-template-columns:1fr;align-items:start}.map-button{width:fit-content}.steps-grid{grid-template-columns:1fr}.step-card{min-height:270px}footer{flex-direction:column;justify-content:center;gap:20px;text-align:center} }
 @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.primary-button{transition:none} }
