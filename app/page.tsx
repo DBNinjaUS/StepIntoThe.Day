@@ -65,7 +65,7 @@ export default function Home() {
         <div className="location-icon"><MapPin size={25} /></div>
         <div className="location-copy">
           <span className="kicker">Meeting location</span>
-          <h2>Meet us at The HOW Place.</h2>
+          <h2>Meet us at the HOW Place at 6:30 AM Monday - Friday</h2>
           <p>5881 Old Bascomb Road<br />Acworth, GA 30102</p>
         </div>
         <a
