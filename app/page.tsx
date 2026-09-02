@@ -98,8 +98,17 @@ export default function Home() {
         <div className="section-heading calendar-heading">
           <span className="kicker">Stay connected</span>
           <h2>Group Calendar</h2>
-          <p>The group calendar will be available here soon.</p>
+          <p>Keep up with meetings and upcoming group events.</p>
         </div>
+        <iframe
+          className="calendar-frame"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=ODNlZjUwMjhjODNjMDI1Y2U2NGQwNWMxMDJjN2E5ODZhZjc4ZGQyNGVkMWFiZDg3MTAzNjg3MTJhY2QyYzgwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23f6bf26"
+          title="Step Into The Day group calendar"
+          width="800"
+          height="600"
+          frameBorder="0"
+          scrolling="no"
+        />
       </section>
 
       <section className="closing">

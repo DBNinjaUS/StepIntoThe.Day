@@ -54,6 +54,7 @@ h2 { margin:18px 0; font-family:var(--font-serif),serif; font-size:clamp(38px,5v
 .calendar-heading { margin-bottom:45px; }
 .calendar-heading h2 { color:var(--foreground); }
 .calendar-heading p { color:#61756c; }
+.calendar-frame { display:block; width:100%; max-width:800px; height:600px; margin:2rem auto 0; border:1px solid rgba(95,78,53,.28); border-radius:18px; background:#fff; }
 .closing { padding:115px 28px; text-align:center; color:var(--foreground); }
 .closing>svg { color:var(--primary); }
 .closing h2 { max-width:720px; margin:20px auto 15px; }
@@ -61,5 +62,5 @@ h2 { margin:18px 0; font-family:var(--font-serif),serif; font-size:clamp(38px,5v
 footer { min-height:180px; padding:44px 28px; display:flex; align-items:center; justify-content:space-between; max-width:1180px; margin:auto; }
 footer p { color:#708078; font-family:var(--font-serif),serif; font-style:italic; }
 .footer-brand { font-size:14px; }
-@media (max-width:760px) { .site-nav-trigger{font-size:13px;padding:8px 11px}.hero{padding-top:70px;min-height:650px}.daily-card{padding:22px;margin-top:50px}.welcome-band{grid-template-columns:1fr;gap:30px;padding:80px 28px}.location-section{margin:0 20px 80px;padding:30px;grid-template-columns:1fr;align-items:start}.map-button{width:fit-content}.steps-grid{grid-template-columns:1fr}.step-card{min-height:270px}.calendar-section{padding:80px 18px}footer{flex-direction:column;justify-content:center;gap:20px;text-align:center} }
+@media (max-width:760px) { .site-nav-trigger{font-size:13px;padding:8px 11px}.hero{padding-top:70px;min-height:650px}.daily-card{padding:22px;margin-top:50px}.welcome-band{grid-template-columns:1fr;gap:30px;padding:80px 28px}.location-section{margin:0 20px 80px;padding:30px;grid-template-columns:1fr;align-items:start}.map-button{width:fit-content}.steps-grid{grid-template-columns:1fr}.step-card{min-height:270px}.calendar-section{padding:80px 18px}.calendar-frame{height:560px;border-radius:12px}footer{flex-direction:column;justify-content:center;gap:20px;text-align:center} }
 @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.primary-button{transition:none} }
