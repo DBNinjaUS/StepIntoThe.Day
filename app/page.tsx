@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav-shell" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="Step Into The Day home">
+        <a className="brand" href="/" aria-label="Step Into The Day home">
           <span className="brand-mark"><Sun size={19} strokeWidth={2.4} /></span>
           <span>Step Into The Day</span>
         </a>
@@ -39,7 +39,7 @@ export default function Home() {
           family, and shared experience. Together, we support one another in building chemical
           and emotional sobriety—and fuller lives—one day at a time.
         </p>
-        <a className="primary-button" href="#newcomers">New here? Start here <ArrowRight size={18} /></a>
+        <a className="primary-button" href="/newcomers">New here? Start here <ArrowRight size={18} /></a>
 
         <div className="daily-card" aria-label="Just for today">
           <div className="card-topline"><span>Just for today</span><span className="date">Progress, not perfection</span></div>
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><span className="brand-mark"><Sun size={17} /></span>Step Into The Day</a>
+        <a className="brand footer-brand" href="/"><span className="brand-mark"><Sun size={17} /></span>Step Into The Day</a>
         <p>An independent Alcoholics Anonymous group.</p>
       </footer>
     </main>

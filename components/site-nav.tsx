@@ -10,18 +10,18 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 const pageLinks = [
-  { href: '#welcome', label: 'Welcome' },
-  { href: '#location', label: 'Location' },
-  { href: '#newcomers', label: 'Newcomers' },
+  { href: '/welcome', label: 'Welcome' },
+  { href: '/location', label: 'Location' },
+  { href: '/newcomers', label: 'Newcomers' },
 ];
 
 const communityLinks = [
-  { href: '#sponsor-area', label: 'Sponsor Area' },
-  { href: '#sponsee-area', label: 'Sponsee Area' },
-  { href: '#messaging', label: 'Messaging' },
-  { href: '#community-social-area', label: 'Community/Social Area' },
-  { href: '#group-calendar', label: 'Group Calendar' },
-  { href: '#group-conscious-documents', label: 'Group Conscious Documents' },
+  { href: '/sponsor-area', label: 'Sponsor Area' },
+  { href: '/sponsee-area', label: 'Sponsee Area' },
+  { href: '/messaging', label: 'Messaging' },
+  { href: '/community-social-area', label: 'Community/Social Area' },
+  { href: '/group-calendar', label: 'Group Calendar' },
+  { href: '/group-conscious-documents', label: 'Group Conscious Documents' },
 ];
 
 export function SiteNav() {
