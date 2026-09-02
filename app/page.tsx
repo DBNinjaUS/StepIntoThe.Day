@@ -94,6 +94,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="group-calendar" className="calendar-section">
+        <div className="section-heading calendar-heading">
+          <span className="kicker">Stay connected</span>
+          <h2>Group Calendar</h2>
+          <p>Keep up with meetings, group-conscious sessions, and community events.</p>
+        </div>
+        <div className="calendar-frame">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=cmlja21oYWxsQGdtYWlsLmNvbQ&src=ZmFtaWx5MDIyMjQxNTcxMzk1NTEyNzU1MTlAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ODNlZjUwMjhjODNjMDI1Y2U2NGQwNWMxMDJjN2E5ODZhZjc4ZGQyNGVkMWFiZDg3MTAzNjg3MTJhY2QyYzgwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MDEwdm1vMG5xbjI1ajJtZWo2MDNnazY4MGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZXZlcmVoYWxsQGdtYWlsLmNvbQ&color=%23a79b8e&color=%23a79b8e&color=%23f6bf26&color=%23616161&color=%23b39ddb"
+            title="Step Into The Day group calendar"
+            width="800"
+            height="600"
+            frameBorder="0"
+            scrolling="no"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
       <section className="closing">
         <Sun size={28} />
         <h2>You never have to take the next step alone.</h2>
